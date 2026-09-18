@@ -1,0 +1,50 @@
+name: Laporan bug
+description: Laporkan masalah yang dapat direproduksi pada proyek HMJTekinfo.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Terima kasih telah membantu meningkatkan proyek HMJTekinfo. Jangan sertakan data pribadi, token, atau detail kerentanan keamanan.
+  - type: textarea
+    id: description
+    attributes:
+      label: Ringkasan masalah
+      description: Jelaskan masalah yang terjadi secara singkat dan jelas.
+      placeholder: "Contoh: Halaman profil gagal dimuat setelah pengguna menyimpan perubahan."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Langkah untuk mereproduksi
+      description: Tuliskan langkah bernomor yang dapat diikuti.
+      placeholder: |
+        1. Buka ...
+        2. Klik ...
+        3. Amati ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Hasil yang diharapkan
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Hasil aktual
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Lingkungan
+      description: Cantumkan perangkat, sistem operasi, browser atau versi aplikasi yang relevan.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log atau tangkapan layar
+      description: Hapus atau samarkan informasi sensitif sebelum mengirimkan lampiran.

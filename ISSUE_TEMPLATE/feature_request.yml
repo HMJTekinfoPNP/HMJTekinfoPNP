@@ -1,0 +1,33 @@
+name: Usulan fitur
+description: Usulkan peningkatan yang bermanfaat bagi proyek HMJTekinfo.
+title: "[Fitur]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: Terima kasih atas ide Anda. Jelaskan kebutuhan pengguna dan dampak yang diharapkan.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Masalah atau kebutuhan
+      description: Masalah apa yang ingin diselesaikan?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Solusi yang diusulkan
+      description: Jelaskan perilaku atau hasil yang diinginkan.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatif yang dipertimbangkan
+      description: Jelaskan pendekatan lain atau alasan bila belum ada.
+  - type: textarea
+    id: context
+    attributes:
+      label: Konteks tambahan
+      description: Tambahkan mockup, contoh penggunaan, atau tautan pendukung bila ada.
