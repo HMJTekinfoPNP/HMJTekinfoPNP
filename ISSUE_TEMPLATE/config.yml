@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
   - name: Website resmi HMJTekinfo
-    url: https://www.hmjtekinfo.web.id/
+    url: https://www.hmjtekinfo.com/
     about: Informasi organisasi, kegiatan, dan layanan resmi.
   - name: Bantuan umum
-    url: mailto:halo@hmjtekinfo.web.id
+    url: mailto:halo@hmjtekinfo.com
     about: Hubungi kami untuk pertanyaan yang bukan bug atau usulan fitur.
   - name: Laporkan kerentanan keamanan
-    url: mailto:halo@hmjtekinfo.web.id
+    url: mailto:halo@hmjtekinfo.com
     about: Jangan publikasikan detail kerentanan melalui issue.
